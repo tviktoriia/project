@@ -1,0 +1,137 @@
+header{
+  margin: 50px 0 50px;
+}
+.menu{
+  background:#fefefe;
+  border: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .19);
+  padding: 15px 0;
+}
+.navbar-brand{
+  padding-right: 40px;
+}
+.navbar-brand img{
+  position: relative;
+  top: -50px;
+}
+.navbar-default .navbar-nav > li > a{
+  color: #8d8c8c;
+  font-size: 12px;
+  text-transform: uppercase;
+} 
+.navbar-default .navbar-nav > li.active-link > a{
+  border-bottom: 1px solid #d42819;
+}
+.navbar-default .navbar-nav:not(.icons) > li > a:hover{
+  border-bottom: 1px solid #d42819;
+}
+.icons li a{
+  padding: 15px 5px;
+}
+.menu .conteiner-fluide{
+  position: relative;
+}
+.globe{
+  font-size: 20px;
+  line-height: 85px;
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  color: #d0cfce;
+  display: none;
+ }
+@media only screen and (max-width: 916px) {
+.navbar-brand{
+  padding-right: 10px;
+ }
+.icons{
+  display: none;
+  position: absolute;
+  right: 25px;
+  top: 40px;
+}
+.globe{
+  display: block;
+}
+.icons li a{
+  padding-top: 10px;
+}
+}
+@media only screen and (min-width: 917px) {
+.icons{
+  display: block !important;
+}
+}
+@media only screen and (max-width: 767px) {
+.menu{
+  padding: 0;
+  }
+.globe{
+  display: none;
+  }
+.navbar-brand img{
+  top: -15px;
+  max-height: 50px;
+  }
+.navbar-default .navbar-nav > li.active-link > a{
+  border-bottom: 0;
+  color: #fff;
+  background: #d42819;
+  }
+.navbar-default .navbar-nav:not(.icons) > li > a:hover{
+  border-bottom: 0;
+  color: #fff;
+  background: #d42819;
+  }
+.icons{
+  display: block !important;
+  right: 100px;
+  top: -12px;
+  }
+.icons li{
+  display: inline-block;
+  }
+}
+footer{
+  margin-top: 50px;
+  height: 50px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .19);
+  background: #fefefe;
+  }
+#text_name, #author, #mail{
+  height: 15px;
+  color: red;
+  padding: 5px;
+  }
+.error_input{
+  border: 1px solid red;
+  }
+#error-input, #error-radio{
+  height: 10px;
+  padding-left: 10px;
+  color: red;
+  }
+.size-image{
+  max-width: 320px;
+  max-height: 240px;
+  }
+.eror{
+  color: red;
+  }
+.save{
+  padding: 0 300px;
+  font-size: 25px;
+  color: gray;
+  }
+.new{
+  padding: 10px 200px 15px 300px;
+  }
+.new-all{
+  background-color: gray;  
+  border-radius: 5px;
+  padding: 0 30px 10px 0;
+  margin: 40px 0 40px 0;
+  }
+textarea{
+  resize: none;
+  }
