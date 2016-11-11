@@ -38,7 +38,7 @@ class CabinetController
 		
 		require_once(ROOT.'/views/cabinet/edit.php');
 		
-		return ' ';
+		return true;
 	}
 	
 	//метод змінює статус відгука.
@@ -61,7 +61,7 @@ class CabinetController
 		
 		require_once(ROOT.'/views/cabinet/status.php');
 		
-		return ' ';
+		return true;
 	}
 	
 }
